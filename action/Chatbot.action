@@ -1,0 +1,24 @@
+# Give language and text input for the chatbot. Example usage in axclient:
+# language: 'en_GB'
+# text: 'hello, ARI'
+# dialogue_id: ''
+# Note the first dialogue id should always be '', and would be empty as long as the conversation
+# is not ended, else it should use the returned end_conversation value
+
+string language
+string text
+string dialogue_id
+---
+string project_id
+string query_text
+string dialogueid
+string fulfillment_text
+string action
+float64 intent_detection_confidence
+string language_code
+
+chatbot_msgs/Intent intent
+chatbot_msgs/Parameter[] parameters
+chatbot_msgs/Context[] output_contexts
+---
+
