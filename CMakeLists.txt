@@ -15,6 +15,7 @@ add_action_files(
     Chatbot.action
     Conversation.action
     RasaServer.action
+    RasaTrain.action
 )
 
 add_message_files(
