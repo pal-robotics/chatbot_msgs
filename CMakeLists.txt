@@ -13,9 +13,13 @@ add_action_files(
     action
   FILES
     Chatbot.action
-    Conversation.action
-    RasaServer.action
-    RasaTrain.action
+    ChatbotServer.action
+    ChatbotTrain.action
+)
+
+add_service_files(
+  FILES
+  GetActiveChatbot.srv
 )
 
 add_message_files(
