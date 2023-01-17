@@ -2,8 +2,8 @@
 Changelog for package chatbot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2023-01-17)
+------------------
 * Merge branch 'master' into 'main'
   change names and add srvs
   See merge request interaction/chatbot_msgs!2
