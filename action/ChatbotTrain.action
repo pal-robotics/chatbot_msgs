@@ -1,8 +1,0 @@
-# Train RASA bots, giving a "chatbot_dir" e.g. /home/.pal/rasa_chatbot_chitchat
- 
-string lang
-
----
-bool bots_trained
----
-

@@ -25,20 +25,14 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 find_package(ament_cmake_auto REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
+ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "action/Chatbot.action"
-  "action/ChatbotServer.action"
-  "action/ChatbotTrain.action"
-  "msg/Context.msg"
-  "msg/Event.msg"
-  "msg/Intent.msg"
-  "msg/Parameter.msg"
-  "srv/GetActiveChatbot.srv"
+  "action/Dialogue.action"
+  "msg/Status.msg"
+  "srv/GetResponse.srv"
+  DEPENDENCIES hri_actions_msgs
 )
-
-ament_export_dependencies(rosidl_default_runtime)
 
 if(BUILD_TESTING)
   ament_auto_find_test_dependencies()

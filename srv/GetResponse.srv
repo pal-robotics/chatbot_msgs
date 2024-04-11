@@ -1,0 +1,7 @@
+string dialogue_id
+string speaker_id
+string utterance
+---
+string text
+hri_actions_msgs/Intent[] intents
+string error
