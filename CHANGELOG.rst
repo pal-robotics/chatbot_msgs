@@ -2,8 +2,8 @@
 Changelog for package chatbot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2024-05-07)
+------------------
 * update interfaces for new chatbot architecture
 * port to humble
 * Contributors: Luka Juricic
