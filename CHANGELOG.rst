@@ -2,6 +2,12 @@
 Changelog for package chatbot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* update interfaces for new chatbot architecture
+* port to humble
+* Contributors: Luka Juricic
+
 0.1.0 (2023-01-17)
 ------------------
 * Merge branch 'master' into 'main'
