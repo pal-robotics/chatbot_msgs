@@ -1,6 +1,0 @@
-string language
----
-string error
----
-string dialogue_id
-chatbot_msgs/Status status
