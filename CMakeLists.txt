@@ -29,7 +29,8 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetResponse.srv"
-  DEPENDENCIES hri_actions_msgs
+  "srv/ResetModels.srv"
+  DEPENDENCIES hri_actions_msgs i18n_msgs
 )
 
 if(BUILD_TESTING)
