@@ -1,0 +1,5 @@
+# (Optional) The model family name to be reset.
+# If left empty, all models will be reset.
+string model
+---
+string error
