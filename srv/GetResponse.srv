@@ -7,6 +7,9 @@ string SYSTEM_USER_ID = system
 # The model used to process the text.
 string model
 
+# (Optional) The locale of the text.
+string locale
+
 # The text for which a response is requested.
 #
 # If the user_id is not SYSTEM_USER_ID's value, the value is the user's input in plain text.
