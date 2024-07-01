@@ -2,6 +2,15 @@
 Changelog for package chatbot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* rename fields in GetResponse
+* remove legacy i18n_msgs dependency
+* refine documentation
+* reset only one model at a time
+* remove Dialogue.action and Status.msg
+* Contributors: Luka Juricic
+
 2.0.0 (2024-05-07)
 ------------------
 * update interfaces for new chatbot architecture
