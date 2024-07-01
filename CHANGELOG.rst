@@ -2,8 +2,8 @@
 Changelog for package chatbot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.0 (2024-07-01)
+------------------
 * rename fields in GetResponse
 * remove legacy i18n_msgs dependency
 * refine documentation
