@@ -39,14 +39,14 @@ string locale
 #
 # On the other hand, a classic chatbot might instead use only structured data,
 # where the fields should match the internal variables used by the specific chatbot model.
-string text
+string input
 
 ---
 # The text of the response to the request.
 # It might be left empty if no suitable response can be generated in the given context.
 # E.g., if an intent was detected, the response might depend on how the intent is handled by the system.
 # In this case, a verbalized response might be solicited with a second request, using the intent processing result as system input.
-string text
+string response
 
 # The list of intents that were detected in the request or generated in response.
 # The intents are in order of relevance, with the most relevant one first.
