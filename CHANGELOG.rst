@@ -2,8 +2,8 @@
 Changelog for package chatbot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.0 (2025-02-17)
+------------------
 * add Dialogue.action and AdvanceDialogue.srv
 * Contributors: Luka Juricic
 
