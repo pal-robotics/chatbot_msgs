@@ -2,6 +2,11 @@
 Changelog for package chatbot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add Dialogue.action and AdvanceDialogue.srv
+* Contributors: Luka Juricic
+
 2.1.0 (2024-07-01)
 ------------------
 * rename fields in GetResponse
