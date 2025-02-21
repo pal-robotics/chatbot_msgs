@@ -21,8 +21,6 @@ string variables
 string locale
 
 ---
-
----
 # The JSON dictionary of results obtained from the dialogue, based on the purpose.
 # For example, if the purpose is 'ask_info', and the variables '{info: ["speaker_name"]}',
 # the dictionary could contain the following keys:
@@ -32,3 +30,5 @@ string results
 # The error message.
 # This is not empty only if the dialogue has been aborted.
 string error_msg
+
+---
