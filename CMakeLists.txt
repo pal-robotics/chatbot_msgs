@@ -32,7 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddToDialogue.srv"
   "srv/GetResponse.srv"
   "srv/ResetModel.srv"
-  DEPENDENCIES hri_actions_msgs
+  DEPENDENCIES hri_actions_msgs unique_identifier_msgs
 )
 
 if(BUILD_TESTING)
