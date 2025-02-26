@@ -1,6 +1,6 @@
 # Adds an entry to the dialogue history, potentially triggering a response from the chatbot.
 
-# The  of the action Dialogue to be advanced.
+# The ID of the action Dialogue to be advanced.
 unique_identifier_msgs/UUID dialogue_id
 
 # (Optional) The detected locale for the 'input' field, using following format:

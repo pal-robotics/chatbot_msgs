@@ -1,0 +1,15 @@
+# A request for a chatbot to get the LLM system prompt.
+
+# The ID of the Dialogue involved.
+unique_identifier_msgs/UUID dialogue_id
+
+# The keyword that will be used to generate and render the system prompt.
+string prompt_keyword
+
+---
+# The text of the response to the request, that contains the rendered system prompt.
+string prompt
+
+# The error message.
+# This is not empty only if the request could not be fully processed.
+string error
