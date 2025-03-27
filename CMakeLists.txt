@@ -29,6 +29,7 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Dialogue.action"
+  "msg/DialoguePurpose.msg"
   "srv/AddToDialogue.srv"
   "srv/GetResponse.srv"
   "srv/ResetModel.srv"
