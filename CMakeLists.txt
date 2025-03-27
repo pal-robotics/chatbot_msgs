@@ -31,8 +31,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Dialogue.action"
   "msg/DialoguePurpose.msg"
   "srv/AddToDialogue.srv"
-  "srv/GetResponse.srv"
-  "srv/ResetModel.srv"
   "srv/GetCurrentContext.srv"
   DEPENDENCIES hri_actions_msgs unique_identifier_msgs
 )
