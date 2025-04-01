@@ -11,7 +11,7 @@ string keyword
 
 ---
 # The text of the response to the request, that contains the rendered context.
-string context
+chatbot_msgs/ContextUpdate[] context_updates
 
 # The error message.
 # This is not empty only if the request could not be fully processed.

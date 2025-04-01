@@ -28,10 +28,12 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/ContextUpdate.msg"
   "action/Dialogue.action"
   "msg/DialoguePurpose.msg"
   "srv/AddToDialogue.srv"
   "srv/GetCurrentContext.srv"
+  "srv/SetContext.srv"
   DEPENDENCIES hri_actions_msgs unique_identifier_msgs
 )
 
