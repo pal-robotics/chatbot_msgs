@@ -31,7 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ContextUpdate.msg"
   "action/Dialogue.action"
   "msg/DialoguePurpose.msg"
-  "srv/AddToDialogue.srv"
+  "srv/DialogueInteraction.srv"
   "srv/GetCurrentContext.srv"
   "srv/SetContext.srv"
   DEPENDENCIES hri_actions_msgs unique_identifier_msgs

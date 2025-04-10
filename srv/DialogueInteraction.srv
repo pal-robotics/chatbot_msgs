@@ -48,8 +48,10 @@ string ASSISTANT_USER_ID = __assistant__
 # where the fields should match the internal variables used by the specific chatbot model.
 string input
 
-# Whether it is required a response from the chatbot.
-bool respond
+# Whether a response is expected from the chatbot.
+# If true, a response will be returned as a combination of textual response and structured intent (see below).
+# If false, no response is expected from the chatbot. This can be used to eg add the robot's own speech to the dialogue history.
+bool response_expected
 
 ---
 # The text of the response to the request.
