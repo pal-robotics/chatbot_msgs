@@ -30,7 +30,7 @@ ament_auto_find_build_dependencies()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ContextUpdate.msg"
   "action/Dialogue.action"
-  "msg/DialoguePurpose.msg"
+  "msg/DialogueRole.msg"
   "srv/DialogueInteraction.srv"
   "srv/GetCurrentContext.srv"
   "srv/SetContext.srv"

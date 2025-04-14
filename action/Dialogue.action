@@ -1,8 +1,8 @@
-# Starts a dialogue with a defined purpose,
+# Starts a dialogue with a defined role,
 # which can be simply to "chat" or something more focused like "ask for something".
 
-# The purpose of the dialogue.
-chatbot_msgs/DialoguePurpose purpose
+# The role of the dialogue.
+chatbot_msgs/DialogueRole role
 
 # (Optional) The desired locale, using following format:
 # the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), lower-case
@@ -13,10 +13,18 @@ chatbot_msgs/DialoguePurpose purpose
 string locale
 
 ---
-# The JSON dictionary of results obtained from the dialogue, based on the purpose.
-# For example, if the purpose.keyword is 'ask', and the purpose.variables is '{"person_name": "str"}',
+# The JSON dictionary of results obtained from the dialogue, based on the role.
+# For example, if the role.name is ASK_ROLE, and the role.configuration is
+# {
+#   ...
+#   "result_schema_properties": {  # -> 
+#     "age": {
+#       "type": "integer",
+#       "minimum": 0,
+#   },
+# }
 # the dictionary could be the following:
-#   {"person_name": "Bob"}
+#   {"age": "12"}
 string results "{}"
 
 # The error message.
