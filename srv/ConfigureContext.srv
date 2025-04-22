@@ -1,11 +1,7 @@
-# A request to configure the updating of the context about the robot knowedge.
+# A request to configure and start a context manager instance.
 
-# The context manager will receive requests to update the context for 
-# the specific keywords of the active chatbot.
-# The keyword is used to identify the context that will be rendered,
-# so you can configure the context for different keywords.
-# Leave the keyword empty to configure the context for all the keywords.
-string keyword
+# The unique ID to be assigned to the context manager instance.
+unique_identifier_msgs/UUID id
 
 # It contains three parts:
 # 1. The knowledge that is retrieved from the knowledge base.
@@ -30,7 +26,7 @@ bool task_context_enabled # Use or not the task diagnostics messages.
 bool skill_context_enabled # Use or not the skill diagnostics messages.
 
 ################################################################################
-# 3. Provie custom context appended to the retreived context.
+# 3. Provide custom context appended to the retrieved context.
 ################################################################################
 
 string custom_context # The custom context that will be appended to the context.
@@ -39,4 +35,4 @@ string custom_context # The custom context that will be appended to the context.
 
 # The error message.
 # This is not empty only if the request could not be fully processed.
-string error
+string error_msg

@@ -1,13 +1,7 @@
-# A request to get the current context (world and robot knowledge updates).
+# A request to get an update for a context manager instance.
 
-# The ID of the dialog in which the request is made.
-# It is used to provide updates from previous requests with the same ID.
-unique_identifier_msgs/UUID dialogue_id
-
-# The keyword that will be used to generate the rendered context.
-# Context will be rendered using the template from the corresponding keyword.
-# If the keyword is empty, the context will be rendered using the default template.
-string keyword
+# The unique ID assigned to the context manager instance during configuration.
+unique_identifier_msgs/UUID id
 
 ---
 # The text of the response to the request, that contains the rendered context.
@@ -15,4 +9,4 @@ chatbot_msgs/ContextUpdate[] context_updates
 
 # The error message.
 # This is not empty only if the request could not be fully processed.
-string error
+string error_msg

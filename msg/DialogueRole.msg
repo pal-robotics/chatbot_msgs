@@ -19,7 +19,7 @@ string ASK_ROLE = "__ask__"
 # - DEFAULT_ROLE:
 # {
 #   "prompt":  "You are... Bla bla",  # -> main prompt to be sent to the model
-#   "dynamic_context": {  # -> sent to context_manager to get the context updates, which are added to the dialogue as system entries
+#   "dynamic_context": {  # -> used to configure the context manager for the dialogue
 #     "filter_classes_env": ["Human"],
 #     "task_context_enabled": True,
 #     ...
