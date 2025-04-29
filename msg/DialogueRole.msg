@@ -19,9 +19,9 @@ string ASK_ROLE = "__ask__"
 # - DEFAULT_ROLE:
 # {
 #   "prompt":  "You are... Bla bla",  # -> main prompt to be sent to the model
-#   "dynamic_context": {  # -> used to configure the context manager for the dialogue
+#   "semantic_state_aggregator": {  # -> used to configure aggregator of semantic states updates to be injected in the dialogue (see semantic_state_msgs/ConfigureSemanticStateAggregator)
 #     "filter_classes_env": ["Human"],
-#     "task_context_enabled": True,
+#     "task_state_enabled": True,
 #     ...
 #   },
 # }
