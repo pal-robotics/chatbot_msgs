@@ -2,8 +2,8 @@
 Changelog for package chatbot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.0 (2025-04-30)
+------------------
 * update doc for semantic state aggregator
 * Removed messages from context manager
 * update context manager interfaces
